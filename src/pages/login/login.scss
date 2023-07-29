@@ -1,3 +1,99 @@
 .login {
-  background-color: rgb(255, 141, 141);
+  color: #737373;
+  height: 93vh;
+  width: 100vw;
+  background-image: url(../../assets/images/netflix-bg.jpeg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .login-form-main {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    height: 560px;
+    width: 315px;
+    padding: 60px 68px 40px;
+
+    h1 {
+      font-weight: 500;
+      color: #fff;
+    }
+
+    .login-form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+      justify-content: center;
+
+      input {
+        color: #fff;
+        height: 18px;
+        width: calc(100% - 40px);
+        border-radius: 5px;
+        background: #333;
+        padding: 16px 20px;
+        font-size: 16px;
+      }
+
+      .login-cta {
+        color: #fff;
+        margin-top: 30px;
+        height: 48px;
+        width: 100%;
+        border-radius: 5px;
+        background: #e50914;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+
+    .login-help {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+
+      .remember-me {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        span {
+          font-size: 13px;
+        }
+      }
+
+      .login-need-help {
+        font-size: 13px;
+        color: #737373;
+      }
+    }
+
+    .login-form-other {
+      margin-top: 85px;
+
+      .login-signup {
+        font-size: 16px;
+        margin-bottom: 20px;
+
+        a {
+          color: #fff;
+        }
+      }
+
+      .terms-of-use {
+        font-size: 13px;
+        line-height: 1.1;
+
+        a {
+          color: #0071eb;
+        }
+      }
+    }
+  }
 }
